@@ -1,0 +1,16 @@
+2018-06-28 15:44:43,676 INFO 31034 [egg:logger] init all loggers with options: {"dir":"/Users/litchi/gitroot/learn/cross_domain/logs/cross_domain","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cross_domain-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-28 15:44:43,709 INFO 31034 [egg-schedule]: register schedule /Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-28 15:44:43,709 INFO 31034 [egg-schedule]: register schedule /Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-28 15:44:43,756 INFO 31034 [egg-static] starting static serve /public/ -> /Users/litchi/gitroot/learn/cross_domain/app/public
+2018-06-28 15:44:43,759 INFO 31034 [egg-security] use csrf middleware
+2018-06-28 15:44:43,760 INFO 31034 [egg-security] use methodnoallow middleware
+2018-06-28 15:44:43,761 INFO 31034 [egg-security] use noopen middleware
+2018-06-28 15:44:43,761 INFO 31034 [egg-security] use nosniff middleware
+2018-06-28 15:44:43,761 INFO 31034 [egg-security] use xssProtection middleware
+2018-06-28 15:44:43,762 INFO 31034 [egg-security] use xframe middleware
+2018-06-28 15:44:43,762 INFO 31034 [egg-security] use dta middleware
+2018-06-28 15:44:43,762 INFO 31034 [egg-security] compose 7 middlewares into one security middleware
+2018-06-28 15:44:43,766 WARN 31034 [egg-jsonp] SECURITY WARNING!! csrf check and referrer check are both closed!
+2018-06-28 15:44:43,775 INFO 31034 [egg:core] dump config after load, 5ms
+2018-06-28 15:44:43,797 INFO 31034 [egg-watcher:app] watcher start success
+2018-06-28 15:44:43,801 INFO 31034 [egg:core] dump config after ready, 3ms

@@ -1,0 +1,231 @@
+{
+  "keys": "/Users/litchi/gitroot/learn/cross_domain/config/config.default.js",
+  "static": "/Users/litchi/gitroot/learn/cross_domain/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "name": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "version": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "description": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "main": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "dev": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "url": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "author": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "license": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "devDependencies": {
+      "egg": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "strict": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "depth": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "env": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "level": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "port": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/litchi/gitroot/learn/cross_domain/node_modules/egg/config/config.default.js"
+  }
+}

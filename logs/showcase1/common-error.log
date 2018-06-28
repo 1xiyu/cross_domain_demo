@@ -1,0 +1,10 @@
+2018-06-28 15:23:54,993 ERROR 29026 [-/127.0.0.1/-/0ms GET /public/hash.html] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/litchi/gitroot/learn/showcase1/app/public/hash.html'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/litchi/gitroot/learn/showcase1/app/public/hash.html'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/litchi/gitroot/learn/showcase1/app/public/hash.html'
+name: 'ENOENTError'
+pid: 29026
+hostname: litchideMacBook-Pro.local
+

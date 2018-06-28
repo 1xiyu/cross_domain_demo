@@ -1,0 +1,42 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/json",
+    "regexp": "/^\\/json(?:\\/(?=$))?$/",
+    "stack": [
+      "jsonp",
+      "/Users/litchi/gitroot/learn/cross_domain/app/controller/json.js#MsgController.index()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/cros",
+    "regexp": "/^\\/cros(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/litchi/gitroot/learn/cross_domain/app/controller/cros.js#CrosController.index()"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/__loader_trace__",
+    "regexp": "/^\\/__loader_trace__(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous"
+    ]
+  }
+]

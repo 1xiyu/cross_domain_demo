@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+var xhr = new XMLHttpRequest()
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        window.name = xhr.responseText
+        location.href = 'http://y.iqiyi.com:7002/public/iframe/target.html'
+    }
+}
+xhr.open('GET', 'http://y.iqiyi.com:7002/json', true)
+xhr.send(null)
+</script>
+</body>
+</html>
