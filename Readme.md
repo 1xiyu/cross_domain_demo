@@ -7,8 +7,8 @@
 * 配置hosts
 
 ```
-127.0.0.1 x.iqiyi.com.com
-127.0.0.1 y.iqiyi.com.com
+127.0.0.1 x.iqiyi.com
+127.0.0.1 y.iqiyi.com
 ```
 
 * 例子是下面这几个
